@@ -1,0 +1,32 @@
+{
+  "Apple": {
+    "samples": 891,
+    "mismatches": 0,
+    "details": []
+  },
+  "Cake": {
+    "samples": 891,
+    "mismatches": 0,
+    "details": []
+  },
+  "Cheesy Puffs": {
+    "samples": 891,
+    "mismatches": 0,
+    "details": []
+  },
+  "Muffin": {
+    "samples": 891,
+    "mismatches": 0,
+    "details": []
+  },
+  "Watermelon": {
+    "samples": 891,
+    "mismatches": 0,
+    "details": []
+  },
+  "Rocks": {
+    "samples": 891,
+    "mismatches": 0,
+    "details": []
+  }
+}

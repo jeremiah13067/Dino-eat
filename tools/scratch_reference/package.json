@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "description": "Optional build-time reference verification only",
+  "dependencies": {
+    "scratch-vm": "5.0.300",
+    "scratch-render": "2.2.84",
+    "scratch-storage": "4.1.27",
+    "scratch-svg-renderer": "3.0.114",
+    "jszip": "3.10.2",
+    "playwright": "1.62.1"
+  }
+}

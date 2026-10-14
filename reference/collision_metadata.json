@@ -1,0 +1,79 @@
+{
+  "Dinosaur1:0": {
+    "file": "collision/Dinosaur1_0.png",
+    "offset": [
+      -55,
+      -96
+    ]
+  },
+  "Dinosaur1:1": {
+    "file": "collision/Dinosaur1_1.png",
+    "offset": [
+      -55,
+      -47
+    ]
+  },
+  "Dinosaur1:2": {
+    "file": "collision/Dinosaur1_2.png",
+    "offset": [
+      -81,
+      -91
+    ]
+  },
+  "Dinosaur1:3": {
+    "file": "collision/Dinosaur1_3.png",
+    "offset": [
+      -55,
+      -91
+    ]
+  },
+  "Apple:0": {
+    "file": "collision/Apple_0.png",
+    "offset": [
+      -32,
+      -32
+    ]
+  },
+  "Cake:0": {
+    "file": "collision/Cake_0.png",
+    "offset": [
+      -64,
+      -51
+    ]
+  },
+  "Cake:1": {
+    "file": "collision/Cake_1.png",
+    "offset": [
+      -65,
+      -42
+    ]
+  },
+  "Cheesy Puffs:0": {
+    "file": "collision/Cheesy_Puffs_0.png",
+    "offset": [
+      -44,
+      -37
+    ]
+  },
+  "Muffin:0": {
+    "file": "collision/Muffin_0.png",
+    "offset": [
+      -85,
+      -48
+    ]
+  },
+  "Rocks:0": {
+    "file": "collision/Rocks_0.png",
+    "offset": [
+      -60,
+      -16
+    ]
+  },
+  "Watermelon:0": {
+    "file": "collision/Watermelon_0.png",
+    "offset": [
+      31,
+      -29
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "pygame_ce": "2.5.8",
+  "collision_probes": 5346,
+  "collision_mismatches": 0,
+  "visual_channel_mean_absolute_errors": [
+    0.9394560185185186,
+    1.0865740740740741,
+    0.9388252314814814
+  ],
+  "visual_mean_absolute_error": 0.9882851080246914,
+  "visual_excluded_rectangle": [
+    0,
+    0,
+    110,
+    70
+  ],
+  "sustained_rendered_frames": 1800,
+  "reference_engine": "scratch-vm@5.0.300",
+  "reference_renderer": "scratch-render WebGL in headless Chrome"
+}

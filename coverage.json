@@ -1,0 +1,1210 @@
+{
+  "targets": 9,
+  "sprites": 8,
+  "scripts": 23,
+  "blocks": 124,
+  "translated_blocks": 124,
+  "mapping": {
+    "#OlclSKqtc*x3^$K]9J9": {
+      "target": "Dinosaur1",
+      "opcode": "event_whenkeypressed",
+      "function": "dinosaur1_key_d",
+      "file": "scripts.py",
+      "line": 7,
+      "role": "event registration"
+    },
+    "f#Ec_!1zILqmKHL6y9pf": {
+      "target": "Dinosaur1",
+      "opcode": "motion_changexby",
+      "function": "dinosaur1_key_d",
+      "file": "scripts.py",
+      "line": 11,
+      "role": "statement"
+    },
+    "-oMcrSmJhgcQ_N}wL|*(": {
+      "target": "Dinosaur1",
+      "opcode": "event_whenflagclicked",
+      "function": "dinosaur1_green_flag_2",
+      "file": "scripts.py",
+      "line": 14,
+      "role": "event registration"
+    },
+    "p;@aU}RT82857yEtY8YT": {
+      "target": "Dinosaur1",
+      "opcode": "motion_gotoxy",
+      "function": "dinosaur1_green_flag_2",
+      "file": "scripts.py",
+      "line": 18,
+      "role": "statement"
+    },
+    "K/`R4flltexcEq]Mp0C7": {
+      "target": "Dinosaur1",
+      "opcode": "event_whenflagclicked",
+      "function": "dinosaur1_green_flag_3",
+      "file": "scripts.py",
+      "line": 21,
+      "role": "event registration"
+    },
+    "%XF]4hEJyZE6#pC_^t+V": {
+      "target": "Dinosaur1",
+      "opcode": "data_setvariableto",
+      "function": "dinosaur1_green_flag_3",
+      "file": "scripts.py",
+      "line": 25,
+      "role": "statement"
+    },
+    "9g/2j.]9,*Zqci$4dfwF": {
+      "target": "Dinosaur1",
+      "opcode": "control_forever",
+      "function": "dinosaur1_green_flag_3",
+      "file": "scripts.py",
+      "line": 27,
+      "role": "statement"
+    },
+    "1bf=~.-J4irxynOt~h3.": {
+      "target": "Dinosaur1",
+      "opcode": "control_wait",
+      "function": "dinosaur1_green_flag_3",
+      "file": "scripts.py",
+      "line": 29,
+      "role": "statement"
+    },
+    ".]9N,2)jn~C3?}|`(7],": {
+      "target": "Dinosaur1",
+      "opcode": "data_changevariableby",
+      "function": "dinosaur1_green_flag_3",
+      "file": "scripts.py",
+      "line": 31,
+      "role": "statement"
+    },
+    "^Nf%J6M(RT]FT-:eccow": {
+      "target": "Dinosaur1",
+      "opcode": "control_if",
+      "function": "dinosaur1_green_flag_3",
+      "file": "scripts.py",
+      "line": 33,
+      "role": "statement"
+    },
+    "jBXQU~$NH43V0`$ARrL1": {
+      "target": "Dinosaur1",
+      "opcode": "operator_lt",
+      "function": "dinosaur1_green_flag_3",
+      "file": "scripts.py",
+      "line": 34,
+      "role": "expression"
+    },
+    "s2z]53F5X@0:}H9e(^fm": {
+      "target": "Dinosaur1",
+      "opcode": "data_setvariableto",
+      "function": "dinosaur1_green_flag_3",
+      "file": "scripts.py",
+      "line": 35,
+      "role": "statement"
+    },
+    "Kq(jyUMY!{K8)7xP2tEa": {
+      "target": "Dinosaur1",
+      "opcode": "event_whenkeypressed",
+      "function": "dinosaur1_key_w",
+      "file": "scripts.py",
+      "line": 39,
+      "role": "event registration"
+    },
+    "5bMJYM.Z8(Ievq9{+mLq": {
+      "target": "Dinosaur1",
+      "opcode": "motion_changeyby",
+      "function": "dinosaur1_key_w",
+      "file": "scripts.py",
+      "line": 43,
+      "role": "statement"
+    },
+    "M@)A$JJ4wR,[%Zku1D$j": {
+      "target": "Dinosaur1",
+      "opcode": "event_whenkeypressed",
+      "function": "dinosaur1_key_a",
+      "file": "scripts.py",
+      "line": 46,
+      "role": "event registration"
+    },
+    "5@SQM!MZogHwK$qA`b5f": {
+      "target": "Dinosaur1",
+      "opcode": "motion_changexby",
+      "function": "dinosaur1_key_a",
+      "file": "scripts.py",
+      "line": 50,
+      "role": "statement"
+    },
+    "gJ/314B|@`La.2G!%d]8": {
+      "target": "Dinosaur1",
+      "opcode": "event_whenflagclicked",
+      "function": "dinosaur1_green_flag_6",
+      "file": "scripts.py",
+      "line": 53,
+      "role": "event registration"
+    },
+    "Z:Z^tLSt*`CqKYLKEc{a": {
+      "target": "Dinosaur1",
+      "opcode": "data_setvariableto",
+      "function": "dinosaur1_green_flag_6",
+      "file": "scripts.py",
+      "line": 57,
+      "role": "statement"
+    },
+    "x)CF{i*yDkz]lpTc^PF2": {
+      "target": "Dinosaur1",
+      "opcode": "data_setvariableto",
+      "function": "dinosaur1_green_flag_6",
+      "file": "scripts.py",
+      "line": 59,
+      "role": "statement"
+    },
+    "|s1@0@CH{!g-cc]oWqYj": {
+      "target": "Dinosaur1",
+      "opcode": "event_whenkeypressed",
+      "function": "dinosaur1_key_s",
+      "file": "scripts.py",
+      "line": 62,
+      "role": "event registration"
+    },
+    ";ZE*Z6jErCR7k}Xiwp8|": {
+      "target": "Dinosaur1",
+      "opcode": "motion_changeyby",
+      "function": "dinosaur1_key_s",
+      "file": "scripts.py",
+      "line": 66,
+      "role": "statement"
+    },
+    "^;(`qJjfhHwaTmAyN7%y": {
+      "target": "Apple",
+      "opcode": "event_whenflagclicked",
+      "function": "apple_green_flag_1",
+      "file": "scripts.py",
+      "line": 69,
+      "role": "event registration"
+    },
+    ":_Y+e6aD!$m}o)s;cU?p": {
+      "target": "Apple",
+      "opcode": "control_forever",
+      "function": "apple_green_flag_1",
+      "file": "scripts.py",
+      "line": 73,
+      "role": "statement"
+    },
+    "xVPmf7W#%PaT{gR~0!Jd": {
+      "target": "Apple",
+      "opcode": "control_if",
+      "function": "apple_green_flag_1",
+      "file": "scripts.py",
+      "line": 75,
+      "role": "statement"
+    },
+    "J.Ld|rD-|,{*fz?U*7D1": {
+      "target": "Apple",
+      "opcode": "sensing_touchingobject",
+      "function": "apple_green_flag_1",
+      "file": "scripts.py",
+      "line": 76,
+      "role": "expression"
+    },
+    "!cyHwTnr6D|PrWZ(YgN`": {
+      "target": "Apple",
+      "opcode": "sensing_touchingobjectmenu",
+      "function": "apple_green_flag_1",
+      "file": "scripts.py",
+      "line": 76,
+      "role": "expression"
+    },
+    "?}`@qiTn:[^r~U|yXX|%": {
+      "target": "Apple",
+      "opcode": "motion_goto",
+      "function": "apple_green_flag_1",
+      "file": "scripts.py",
+      "line": 77,
+      "role": "statement"
+    },
+    "6[7)jhAlt6T2{eBc#EV$": {
+      "target": "Apple",
+      "opcode": "motion_goto_menu",
+      "function": "apple_green_flag_1",
+      "file": "scripts.py",
+      "line": 78,
+      "role": "expression"
+    },
+    "oUv#A~@!xF}.!,]W)d(^": {
+      "target": "Apple",
+      "opcode": "sound_playuntildone",
+      "function": "apple_green_flag_1",
+      "file": "scripts.py",
+      "line": 79,
+      "role": "statement"
+    },
+    "[Pehhw9r6y7uXZX+f_u%": {
+      "target": "Apple",
+      "opcode": "sound_sounds_menu",
+      "function": "apple_green_flag_1",
+      "file": "scripts.py",
+      "line": 80,
+      "role": "expression"
+    },
+    "lU-b~|k]}ZXt7oEHbe-%": {
+      "target": "Apple",
+      "opcode": "data_changevariableby",
+      "function": "apple_green_flag_1",
+      "file": "scripts.py",
+      "line": 81,
+      "role": "statement"
+    },
+    "rn(jRoftm/pCqG[Lg#=F": {
+      "target": "Apple",
+      "opcode": "event_whenflagclicked",
+      "function": "apple_green_flag_2",
+      "file": "scripts.py",
+      "line": 85,
+      "role": "event registration"
+    },
+    "(H`O4=BA886QfW=94Eoh": {
+      "target": "Apple",
+      "opcode": "motion_gotoxy",
+      "function": "apple_green_flag_2",
+      "file": "scripts.py",
+      "line": 89,
+      "role": "statement"
+    },
+    "@QuEz(#rz8bPDtdR?bOB": {
+      "target": "Cake",
+      "opcode": "event_whenflagclicked",
+      "function": "cake_green_flag_1",
+      "file": "scripts.py",
+      "line": 92,
+      "role": "event registration"
+    },
+    "zltx1sKgtzO^TnT0sT*n": {
+      "target": "Cake",
+      "opcode": "control_forever",
+      "function": "cake_green_flag_1",
+      "file": "scripts.py",
+      "line": 96,
+      "role": "statement"
+    },
+    "_tRt-:,9Cjh8Olh}n.w~": {
+      "target": "Cake",
+      "opcode": "control_if",
+      "function": "cake_green_flag_1",
+      "file": "scripts.py",
+      "line": 98,
+      "role": "statement"
+    },
+    "E=T+1X;_((q5nztPPx(/": {
+      "target": "Cake",
+      "opcode": "sensing_touchingobject",
+      "function": "cake_green_flag_1",
+      "file": "scripts.py",
+      "line": 99,
+      "role": "expression"
+    },
+    "]w=([r!H`rj1F|?nl0!a": {
+      "target": "Cake",
+      "opcode": "sensing_touchingobjectmenu",
+      "function": "cake_green_flag_1",
+      "file": "scripts.py",
+      "line": 99,
+      "role": "expression"
+    },
+    "*Nq4)Fq#%ux{e1)NW{?U": {
+      "target": "Cake",
+      "opcode": "motion_goto",
+      "function": "cake_green_flag_1",
+      "file": "scripts.py",
+      "line": 100,
+      "role": "statement"
+    },
+    "~.6Di]|z.T$]R[1R(/|!": {
+      "target": "Cake",
+      "opcode": "motion_goto_menu",
+      "function": "cake_green_flag_1",
+      "file": "scripts.py",
+      "line": 101,
+      "role": "expression"
+    },
+    "*d]Iw:|s~7ac#x!{)bTR": {
+      "target": "Cake",
+      "opcode": "sound_playuntildone",
+      "function": "cake_green_flag_1",
+      "file": "scripts.py",
+      "line": 102,
+      "role": "statement"
+    },
+    "g6Qa_Ly^h$ox4oSIbty%": {
+      "target": "Cake",
+      "opcode": "sound_sounds_menu",
+      "function": "cake_green_flag_1",
+      "file": "scripts.py",
+      "line": 103,
+      "role": "expression"
+    },
+    ".+d$lEK{b:XTMeNHK!;o": {
+      "target": "Cake",
+      "opcode": "data_changevariableby",
+      "function": "cake_green_flag_1",
+      "file": "scripts.py",
+      "line": 104,
+      "role": "statement"
+    },
+    "bFMmZ^G2X{4CCjG2D,C%": {
+      "target": "Cake",
+      "opcode": "event_whenflagclicked",
+      "function": "cake_green_flag_2",
+      "file": "scripts.py",
+      "line": 108,
+      "role": "event registration"
+    },
+    "N*I?O0^v9:0%H%IBM-Uh": {
+      "target": "Cake",
+      "opcode": "motion_gotoxy",
+      "function": "cake_green_flag_2",
+      "file": "scripts.py",
+      "line": 112,
+      "role": "statement"
+    },
+    "6~bqR|%GP!/ze02^u{WR": {
+      "target": "Cheesy Puffs",
+      "opcode": "event_whenflagclicked",
+      "function": "cheesy_puffs_green_flag_1",
+      "file": "scripts.py",
+      "line": 115,
+      "role": "event registration"
+    },
+    "]J(D2Yl4:c.(l_hA@)Kc": {
+      "target": "Cheesy Puffs",
+      "opcode": "motion_gotoxy",
+      "function": "cheesy_puffs_green_flag_1",
+      "file": "scripts.py",
+      "line": 119,
+      "role": "statement"
+    },
+    "Y5#|ahKv!=!oC5bnJ1S{": {
+      "target": "Cheesy Puffs",
+      "opcode": "event_whenflagclicked",
+      "function": "cheesy_puffs_green_flag_2",
+      "file": "scripts.py",
+      "line": 122,
+      "role": "event registration"
+    },
+    "ev|g4@?lqPjR`r,9BO*/": {
+      "target": "Cheesy Puffs",
+      "opcode": "control_forever",
+      "function": "cheesy_puffs_green_flag_2",
+      "file": "scripts.py",
+      "line": 126,
+      "role": "statement"
+    },
+    "0%}_f::2yQEJy;9AC*?O": {
+      "target": "Cheesy Puffs",
+      "opcode": "control_if",
+      "function": "cheesy_puffs_green_flag_2",
+      "file": "scripts.py",
+      "line": 128,
+      "role": "statement"
+    },
+    "+utn!W82z?P=[J[J6:u*": {
+      "target": "Cheesy Puffs",
+      "opcode": "sensing_touchingobject",
+      "function": "cheesy_puffs_green_flag_2",
+      "file": "scripts.py",
+      "line": 129,
+      "role": "expression"
+    },
+    "UGQ7foC{4p~Cy3F5^91D": {
+      "target": "Cheesy Puffs",
+      "opcode": "sensing_touchingobjectmenu",
+      "function": "cheesy_puffs_green_flag_2",
+      "file": "scripts.py",
+      "line": 129,
+      "role": "expression"
+    },
+    "^DY^[h=I(:$m3i5Py0A?": {
+      "target": "Cheesy Puffs",
+      "opcode": "motion_goto",
+      "function": "cheesy_puffs_green_flag_2",
+      "file": "scripts.py",
+      "line": 130,
+      "role": "statement"
+    },
+    "G@Y[n=5ZGBRsb4@Tjv/S": {
+      "target": "Cheesy Puffs",
+      "opcode": "motion_goto_menu",
+      "function": "cheesy_puffs_green_flag_2",
+      "file": "scripts.py",
+      "line": 131,
+      "role": "expression"
+    },
+    "kp?Fc):.jBDokcVZe_UT": {
+      "target": "Cheesy Puffs",
+      "opcode": "sound_playuntildone",
+      "function": "cheesy_puffs_green_flag_2",
+      "file": "scripts.py",
+      "line": 132,
+      "role": "statement"
+    },
+    "WRy4@.lkzIR:By)~g9d1": {
+      "target": "Cheesy Puffs",
+      "opcode": "sound_sounds_menu",
+      "function": "cheesy_puffs_green_flag_2",
+      "file": "scripts.py",
+      "line": 133,
+      "role": "expression"
+    },
+    "=tRGoo%L-I@vZV+c,*~,": {
+      "target": "Cheesy Puffs",
+      "opcode": "data_changevariableby",
+      "function": "cheesy_puffs_green_flag_2",
+      "file": "scripts.py",
+      "line": 134,
+      "role": "statement"
+    },
+    "xF%68Y5,f]Gsh5SAte`s": {
+      "target": "Muffin",
+      "opcode": "event_whenflagclicked",
+      "function": "muffin_green_flag_1",
+      "file": "scripts.py",
+      "line": 138,
+      "role": "event registration"
+    },
+    "wKPfJtd#}#JZ}C8dmBY!": {
+      "target": "Muffin",
+      "opcode": "motion_gotoxy",
+      "function": "muffin_green_flag_1",
+      "file": "scripts.py",
+      "line": 142,
+      "role": "statement"
+    },
+    "{Fx6NNo?b=`FG/1C|C%U": {
+      "target": "Muffin",
+      "opcode": "event_whenflagclicked",
+      "function": "muffin_green_flag_2",
+      "file": "scripts.py",
+      "line": 145,
+      "role": "event registration"
+    },
+    "~pFV%_I+a+J^.|kS2{Js": {
+      "target": "Muffin",
+      "opcode": "control_forever",
+      "function": "muffin_green_flag_2",
+      "file": "scripts.py",
+      "line": 149,
+      "role": "statement"
+    },
+    "Cv()_QodH;,]J7o?FzfF": {
+      "target": "Muffin",
+      "opcode": "control_if",
+      "function": "muffin_green_flag_2",
+      "file": "scripts.py",
+      "line": 151,
+      "role": "statement"
+    },
+    "SBK1wfub*L.tUK$M_;O?": {
+      "target": "Muffin",
+      "opcode": "sensing_touchingobject",
+      "function": "muffin_green_flag_2",
+      "file": "scripts.py",
+      "line": 152,
+      "role": "expression"
+    },
+    "h5G]]h#N.|K.os?9Qb4J": {
+      "target": "Muffin",
+      "opcode": "sensing_touchingobjectmenu",
+      "function": "muffin_green_flag_2",
+      "file": "scripts.py",
+      "line": 152,
+      "role": "expression"
+    },
+    "nX|xxeIr~2oI}8!56IH.": {
+      "target": "Muffin",
+      "opcode": "motion_goto",
+      "function": "muffin_green_flag_2",
+      "file": "scripts.py",
+      "line": 153,
+      "role": "statement"
+    },
+    "O]7@[hwljxguS_Nhw_|+": {
+      "target": "Muffin",
+      "opcode": "motion_goto_menu",
+      "function": "muffin_green_flag_2",
+      "file": "scripts.py",
+      "line": 154,
+      "role": "expression"
+    },
+    "Ye[WfRao+sf|rt}5{SFL": {
+      "target": "Muffin",
+      "opcode": "sound_playuntildone",
+      "function": "muffin_green_flag_2",
+      "file": "scripts.py",
+      "line": 155,
+      "role": "statement"
+    },
+    "Nt)EPvDbjzM??,Zj{/Ti": {
+      "target": "Muffin",
+      "opcode": "sound_sounds_menu",
+      "function": "muffin_green_flag_2",
+      "file": "scripts.py",
+      "line": 156,
+      "role": "expression"
+    },
+    "Iz}hIG+=vCA%;4i?hk)O": {
+      "target": "Muffin",
+      "opcode": "data_changevariableby",
+      "function": "muffin_green_flag_2",
+      "file": "scripts.py",
+      "line": 157,
+      "role": "statement"
+    },
+    ")wl%xcbJCLwngLG8l}sS": {
+      "target": "Rocks",
+      "opcode": "event_whenflagclicked",
+      "function": "rocks_green_flag_1",
+      "file": "scripts.py",
+      "line": 161,
+      "role": "event registration"
+    },
+    "ub+^K$#JhH_q`Op]?i$%": {
+      "target": "Rocks",
+      "opcode": "control_wait",
+      "function": "rocks_green_flag_1",
+      "file": "scripts.py",
+      "line": 165,
+      "role": "statement"
+    },
+    "x_}8X.{)hoLv3#KBIRjw": {
+      "target": "Rocks",
+      "opcode": "control_forever",
+      "function": "rocks_green_flag_1",
+      "file": "scripts.py",
+      "line": 167,
+      "role": "statement"
+    },
+    "~HUkQ,y[k[PgWe|/du7#": {
+      "target": "Rocks",
+      "opcode": "control_if",
+      "function": "rocks_green_flag_1",
+      "file": "scripts.py",
+      "line": 169,
+      "role": "statement"
+    },
+    "5rt!$E%dpU=t9JDt!=]6": {
+      "target": "Rocks",
+      "opcode": "sensing_touchingobject",
+      "function": "rocks_green_flag_1",
+      "file": "scripts.py",
+      "line": 170,
+      "role": "expression"
+    },
+    "SwIT/zxOTC-6MP%:v_,,": {
+      "target": "Rocks",
+      "opcode": "sensing_touchingobjectmenu",
+      "function": "rocks_green_flag_1",
+      "file": "scripts.py",
+      "line": 170,
+      "role": "expression"
+    },
+    "YG9T-HLrmGe`3Lu@DfzC": {
+      "target": "Rocks",
+      "opcode": "data_setvariableto",
+      "function": "rocks_green_flag_1",
+      "file": "scripts.py",
+      "line": 171,
+      "role": "statement"
+    },
+    "tdRa(ioX.s]ByF}ak{/I": {
+      "target": "Rocks",
+      "opcode": "data_changevariableby",
+      "function": "rocks_green_flag_1",
+      "file": "scripts.py",
+      "line": 173,
+      "role": "statement"
+    },
+    "3yJ8teSN+xIi6O)5aT:B": {
+      "target": "Rocks",
+      "opcode": "sound_playuntildone",
+      "function": "rocks_green_flag_1",
+      "file": "scripts.py",
+      "line": 175,
+      "role": "statement"
+    },
+    "VjYA@Fp3zskD}{IcE]-8": {
+      "target": "Rocks",
+      "opcode": "sound_sounds_menu",
+      "function": "rocks_green_flag_1",
+      "file": "scripts.py",
+      "line": 176,
+      "role": "expression"
+    },
+    "#U:T%UROnC0=@L7[Bexd": {
+      "target": "Rocks",
+      "opcode": "data_setvariableto",
+      "function": "rocks_green_flag_1",
+      "file": "scripts.py",
+      "line": 177,
+      "role": "statement"
+    },
+    "7@~W[kj2cR6q!:NUPj^p": {
+      "target": "Rocks",
+      "opcode": "event_whenflagclicked",
+      "function": "rocks_green_flag_2",
+      "file": "scripts.py",
+      "line": 181,
+      "role": "event registration"
+    },
+    "(7eODjZ+s8,u{s1%nM3;": {
+      "target": "Rocks",
+      "opcode": "control_forever",
+      "function": "rocks_green_flag_2",
+      "file": "scripts.py",
+      "line": 185,
+      "role": "statement"
+    },
+    "NxZ{wa?$kaah!gt5bXIj": {
+      "target": "Rocks",
+      "opcode": "control_wait",
+      "function": "rocks_green_flag_2",
+      "file": "scripts.py",
+      "line": 187,
+      "role": "statement"
+    },
+    "*h$npcFA.Ln^*Be_$3qu": {
+      "target": "Rocks",
+      "opcode": "motion_goto",
+      "function": "rocks_green_flag_2",
+      "file": "scripts.py",
+      "line": 189,
+      "role": "statement"
+    },
+    "v{~AP$_XP7FqM7nRgdGi": {
+      "target": "Rocks",
+      "opcode": "motion_goto_menu",
+      "function": "rocks_green_flag_2",
+      "file": "scripts.py",
+      "line": 190,
+      "role": "expression"
+    },
+    "Hr~mddrLw??NhJwz(w/2": {
+      "target": "Rocks",
+      "opcode": "event_whenflagclicked",
+      "function": "rocks_green_flag_3",
+      "file": "scripts.py",
+      "line": 193,
+      "role": "event registration"
+    },
+    "07^5c93ZnZ+;ZgW|}s6`": {
+      "target": "Rocks",
+      "opcode": "looks_switchcostumeto",
+      "function": "rocks_green_flag_3",
+      "file": "scripts.py",
+      "line": 197,
+      "role": "statement"
+    },
+    "Y^v@_Cl?J[Lzx*@ZU|v}": {
+      "target": "Rocks",
+      "opcode": "looks_costume",
+      "function": "rocks_green_flag_3",
+      "file": "scripts.py",
+      "line": 198,
+      "role": "expression"
+    },
+    "SjA4e]}eu=t1UUT`_b1E": {
+      "target": "Rocks",
+      "opcode": "event_whenflagclicked",
+      "function": "rocks_green_flag_4",
+      "file": "scripts.py",
+      "line": 200,
+      "role": "event registration"
+    },
+    "Z~J2b8qp-nHs7f5M=in,": {
+      "target": "Rocks",
+      "opcode": "control_wait",
+      "function": "rocks_green_flag_4",
+      "file": "scripts.py",
+      "line": 204,
+      "role": "statement"
+    },
+    "Pon15{eTl10V4_gw/umK": {
+      "target": "Rocks",
+      "opcode": "looks_nextcostume",
+      "function": "rocks_green_flag_4",
+      "file": "scripts.py",
+      "line": 206,
+      "role": "statement"
+    },
+    "CUf}xO!{N]sOQN5`nCCD": {
+      "target": ".",
+      "opcode": "event_whenflagclicked",
+      "function": "helper_dot_green_flag_1",
+      "file": "scripts.py",
+      "line": 209,
+      "role": "event registration"
+    },
+    ".$D-ZxLa+g%JaO@X=]mI": {
+      "target": ".",
+      "opcode": "looks_hide",
+      "function": "helper_dot_green_flag_1",
+      "file": "scripts.py",
+      "line": 213,
+      "role": "statement"
+    },
+    "HlIV;Hx.3nWeUV.3hBO5": {
+      "target": ".",
+      "opcode": "control_create_clone_of",
+      "function": "helper_dot_green_flag_1",
+      "file": "scripts.py",
+      "line": 215,
+      "role": "statement"
+    },
+    "D#;h.i5G_Oo?}l#OX5(8": {
+      "target": ".",
+      "opcode": "control_create_clone_of_menu",
+      "function": "helper_dot_green_flag_1",
+      "file": "scripts.py",
+      "line": 216,
+      "role": "expression"
+    },
+    "FsB:KUHH-T5[W*r9CvLZ": {
+      "target": ".",
+      "opcode": "control_start_as_clone",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 218,
+      "role": "event registration"
+    },
+    "Y{LzD{04+Z9UE|(N3y8c": {
+      "target": ".",
+      "opcode": "looks_show",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 222,
+      "role": "statement"
+    },
+    "_EOoWfBo-jKB!ZQ9.p/@": {
+      "target": ".",
+      "opcode": "motion_sety",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 224,
+      "role": "statement"
+    },
+    "ATt)g+Q5N~B!mN]gNKnt": {
+      "target": ".",
+      "opcode": "motion_setx",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 226,
+      "role": "statement"
+    },
+    "V9|E*`mo(0CFGCLY8azu": {
+      "target": ".",
+      "opcode": "operator_random",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 227,
+      "role": "expression"
+    },
+    "!zVjvcp]4wrCOn^:AZo,": {
+      "target": ".",
+      "opcode": "control_repeat",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 228,
+      "role": "statement"
+    },
+    "Lq]53Eop=GcSP@ca1lfC": {
+      "target": ".",
+      "opcode": "motion_changexby",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 230,
+      "role": "statement"
+    },
+    "Am=AesMAm}^r}Jzp%gdP": {
+      "target": ".",
+      "opcode": "control_wait",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 232,
+      "role": "statement"
+    },
+    "{`O`FeIg0(mdeCTDPw)X": {
+      "target": ".",
+      "opcode": "control_if",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 234,
+      "role": "statement"
+    },
+    "PC$g}hU5Xj;WRzg-oa7x": {
+      "target": ".",
+      "opcode": "operator_lt",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 235,
+      "role": "expression"
+    },
+    "!EJ)w1NGmD^y?8jTubW~": {
+      "target": ".",
+      "opcode": "motion_yposition",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 235,
+      "role": "expression"
+    },
+    "fQ|T7c;ZRVi2DK-%q~gD": {
+      "target": ".",
+      "opcode": "control_create_clone_of",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 236,
+      "role": "statement"
+    },
+    "X_XCv$8)UrL!.2bJ5p=;": {
+      "target": ".",
+      "opcode": "control_create_clone_of_menu",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 237,
+      "role": "expression"
+    },
+    "-$b17SCt~?|#quhytS?8": {
+      "target": ".",
+      "opcode": "control_delete_this_clone",
+      "function": "helper_dot_clone_start_2",
+      "file": "scripts.py",
+      "line": 238,
+      "role": "statement"
+    },
+    "=Fm]li!v59l]FN?J~IFO": {
+      "target": "Watermelon",
+      "opcode": "event_whenflagclicked",
+      "function": "watermelon_green_flag_1",
+      "file": "scripts.py",
+      "line": 243,
+      "role": "event registration"
+    },
+    "Uat^4P[-cpul0b-9^:,@": {
+      "target": "Watermelon",
+      "opcode": "control_forever",
+      "function": "watermelon_green_flag_1",
+      "file": "scripts.py",
+      "line": 247,
+      "role": "statement"
+    },
+    "BA%Hrx2?O0=Eah~nlbQi": {
+      "target": "Watermelon",
+      "opcode": "control_wait",
+      "function": "watermelon_green_flag_1",
+      "file": "scripts.py",
+      "line": 249,
+      "role": "statement"
+    },
+    "c*(MH?XAX+8q/k$)F1GR": {
+      "target": "Watermelon",
+      "opcode": "motion_goto",
+      "function": "watermelon_green_flag_1",
+      "file": "scripts.py",
+      "line": 251,
+      "role": "statement"
+    },
+    "8N#Gl~PUQ,^55KH9b^+?": {
+      "target": "Watermelon",
+      "opcode": "motion_goto_menu",
+      "function": "watermelon_green_flag_1",
+      "file": "scripts.py",
+      "line": 252,
+      "role": "expression"
+    },
+    "|TT%];)+]VzA|y1g4x53": {
+      "target": "Watermelon",
+      "opcode": "event_whenflagclicked",
+      "function": "watermelon_green_flag_2",
+      "file": "scripts.py",
+      "line": 255,
+      "role": "event registration"
+    },
+    "IY.7QmpgV}4Zf;qzRsUg": {
+      "target": "Watermelon",
+      "opcode": "control_forever",
+      "function": "watermelon_green_flag_2",
+      "file": "scripts.py",
+      "line": 259,
+      "role": "statement"
+    },
+    "WBUJwiy,}RrxtWV:JfwY": {
+      "target": "Watermelon",
+      "opcode": "control_if",
+      "function": "watermelon_green_flag_2",
+      "file": "scripts.py",
+      "line": 261,
+      "role": "statement"
+    },
+    "omOz|e:)Bhrj}}keA=Db": {
+      "target": "Watermelon",
+      "opcode": "sensing_touchingobject",
+      "function": "watermelon_green_flag_2",
+      "file": "scripts.py",
+      "line": 262,
+      "role": "expression"
+    },
+    "lJX)t$D(GA#v0?+`~juo": {
+      "target": "Watermelon",
+      "opcode": "sensing_touchingobjectmenu",
+      "function": "watermelon_green_flag_2",
+      "file": "scripts.py",
+      "line": 262,
+      "role": "expression"
+    },
+    "G9wq,xA:=6YD,_X%R$3@": {
+      "target": "Watermelon",
+      "opcode": "motion_goto",
+      "function": "watermelon_green_flag_2",
+      "file": "scripts.py",
+      "line": 263,
+      "role": "statement"
+    },
+    "^_K(XW4P8qZw$nFYa;nT": {
+      "target": "Watermelon",
+      "opcode": "motion_goto_menu",
+      "function": "watermelon_green_flag_2",
+      "file": "scripts.py",
+      "line": 264,
+      "role": "expression"
+    },
+    ".mPwr?cZ=FEXUS3HK`25": {
+      "target": "Watermelon",
+      "opcode": "sound_playuntildone",
+      "function": "watermelon_green_flag_2",
+      "file": "scripts.py",
+      "line": 265,
+      "role": "statement"
+    },
+    "?/R``4q}c1SVWw7Rx8`I": {
+      "target": "Watermelon",
+      "opcode": "sound_sounds_menu",
+      "function": "watermelon_green_flag_2",
+      "file": "scripts.py",
+      "line": 266,
+      "role": "expression"
+    },
+    "1UQ^Wxn){vF{kr~$_(NW": {
+      "target": "Watermelon",
+      "opcode": "data_changevariableby",
+      "function": "watermelon_green_flag_2",
+      "file": "scripts.py",
+      "line": 267,
+      "role": "statement"
+    }
+  },
+  "assets": {
+    "cd21514d0531fdffb22204e0ec5ed84a.svg": {
+      "file": "cd21514d0531fdffb22204e0ec5ed84a.png",
+      "width": 2.0,
+      "height": 2.0,
+      "raster_scale": 2,
+      "empty": false
+    },
+    "de0e54cd11551566f044e7e6bc588b2c.png": {
+      "file": "de0e54cd11551566f044e7e6bc588b2c.png",
+      "width": 960,
+      "height": 720,
+      "raster_scale": 1,
+      "empty": false
+    },
+    "fb238e3eaee7901e58f140a544f1b863.svg": {
+      "file": "fb238e3eaee7901e58f140a544f1b863.png",
+      "width": 674.13387,
+      "height": 389.0142,
+      "raster_scale": 2,
+      "empty": false
+    },
+    "968e4bf0d3f8f68fe24bacc6f8fa8413.svg": {
+      "file": "968e4bf0d3f8f68fe24bacc6f8fa8413.png",
+      "width": 153.01229,
+      "height": 194.11988,
+      "raster_scale": 2,
+      "empty": false
+    },
+    "57ac3d33bf1b57885bfb412c45492487.svg": {
+      "file": "57ac3d33bf1b57885bfb412c45492487.png",
+      "width": 141.60918,
+      "height": 137.09664,
+      "raster_scale": 2,
+      "empty": false
+    },
+    "b8355c0766d500b568ca20cbf8cbbf84.svg": {
+      "file": "b8355c0766d500b568ca20cbf8cbbf84.png",
+      "width": 161.29645,
+      "height": 181.23311,
+      "raster_scale": 2,
+      "empty": false
+    },
+    "27d9366e7882832a366ea416231c8a75.svg": {
+      "file": "27d9366e7882832a366ea416231c8a75.png",
+      "width": 153.21776,
+      "height": 181.23311,
+      "raster_scale": 2,
+      "empty": false
+    },
+    "3826a4091a33e4d26f87a2fac7cf796b.svg": {
+      "file": "3826a4091a33e4d26f87a2fac7cf796b.png",
+      "width": 63.215999603271484,
+      "height": 64.36821365356445,
+      "raster_scale": 2,
+      "empty": false
+    },
+    "862488bf66b67c5330cae9235b853b6e.svg": {
+      "file": "862488bf66b67c5330cae9235b853b6e.png",
+      "width": 127.56355000822265,
+      "height": 105.96345235197265,
+      "raster_scale": 2,
+      "empty": false
+    },
+    "dfe9c5d40da0dcc386fad524c36d3579.svg": {
+      "file": "dfe9c5d40da0dcc386fad524c36d3579.png",
+      "width": 127.56354237882812,
+      "height": 96.61919881193359,
+      "raster_scale": 2,
+      "empty": false
+    },
+    "82772a61ec74974e84c686c61ea0b7d5.png": {
+      "file": "82772a61ec74974e84c686c61ea0b7d5.png",
+      "width": 176,
+      "height": 144,
+      "raster_scale": 1,
+      "empty": false
+    },
+    "afa34381db44e699d61f774911aab448.svg": {
+      "file": "afa34381db44e699d61f774911aab448.png",
+      "width": 81.42745917840257,
+      "height": 69.21538489861742,
+      "raster_scale": 2,
+      "empty": false
+    },
+    "14e46ec3e2ba471c2adfe8f119052307.svg": {
+      "file": "14e46ec3e2ba471c2adfe8f119052307.png",
+      "width": 0.0,
+      "height": 0.0,
+      "raster_scale": 2,
+      "empty": true
+    },
+    "55426ccbb5c49b1526e53586943f3ec3.svg": {
+      "file": "55426ccbb5c49b1526e53586943f3ec3.png",
+      "width": 124.6006076335907,
+      "height": 77.29911684989929,
+      "raster_scale": 2,
+      "empty": false
+    },
+    "70314e5a1ad0f984286d205a342d86a2.svg": {
+      "file": "70314e5a1ad0f984286d205a342d86a2.png",
+      "width": 3.59594,
+      "height": 3.32034,
+      "raster_scale": 2,
+      "empty": false
+    }
+  },
+  "collision_assets": {
+    "Dinosaur1:0": {
+      "file": "collision/Dinosaur1_0.png",
+      "offset": [
+        -55,
+        -96
+      ]
+    },
+    "Dinosaur1:1": {
+      "file": "collision/Dinosaur1_1.png",
+      "offset": [
+        -55,
+        -47
+      ]
+    },
+    "Dinosaur1:2": {
+      "file": "collision/Dinosaur1_2.png",
+      "offset": [
+        -81,
+        -91
+      ]
+    },
+    "Dinosaur1:3": {
+      "file": "collision/Dinosaur1_3.png",
+      "offset": [
+        -55,
+        -91
+      ]
+    },
+    "Apple:0": {
+      "file": "collision/Apple_0.png",
+      "offset": [
+        -32,
+        -32
+      ]
+    },
+    "Cake:0": {
+      "file": "collision/Cake_0.png",
+      "offset": [
+        -64,
+        -51
+      ]
+    },
+    "Cake:1": {
+      "file": "collision/Cake_1.png",
+      "offset": [
+        -65,
+        -42
+      ]
+    },
+    "Cheesy Puffs:0": {
+      "file": "collision/Cheesy_Puffs_0.png",
+      "offset": [
+        -44,
+        -37
+      ]
+    },
+    "Muffin:0": {
+      "file": "collision/Muffin_0.png",
+      "offset": [
+        -85,
+        -48
+      ]
+    },
+    "Rocks:0": {
+      "file": "collision/Rocks_0.png",
+      "offset": [
+        -60,
+        -16
+      ]
+    },
+    "Watermelon:0": {
+      "file": "collision/Watermelon_0.png",
+      "offset": [
+        31,
+        -29
+      ]
+    }
+  },
+  "asset_sha256": {
+    "0039635b1d6853face36581784558454.wav": "707090c96728634c2ec3e4d33c43a5dfe4cf5b6e0d77a537a871760ad4c65a29",
+    "0b1e3033140d094563248e61de4039e5.wav": "06e9501f53af28c9b7da096dcc4fb858d25b79ca51a2e15cffb5ed4b35f5358a",
+    "14e46ec3e2ba471c2adfe8f119052307.svg": "d5f40bd8c559ae5d54e7e4767b05e9026a4255d0d45aa0ba53a517f0139034da",
+    "27d9366e7882832a366ea416231c8a75.svg": "01bf51b351792022d2f06169b7c71a108c0bbdd2d962c872c03bce6411c4535e",
+    "3826a4091a33e4d26f87a2fac7cf796b.svg": "76947a7ac0c7aa06fb0930e4f4da4830ee459a68d32c5a400ef5899174849d6f",
+    "53a3c2e27d1fb5fdb14aaf0cb41e7889.wav": "aad6d06e41ac103fda69735e51bf89fa1a26ca19114ae813bbd084f75ef65d24",
+    "55426ccbb5c49b1526e53586943f3ec3.svg": "1e73dc86a373bb0b231b3e94a5b7661ea30bb7332570663f8c9ffb96bbe479f9",
+    "57ac3d33bf1b57885bfb412c45492487.svg": "090fff932439f80aa9ccc971bfd3847201fdf7be2484801394721db30ce5631e",
+    "70314e5a1ad0f984286d205a342d86a2.svg": "7b3d7afbbfb6c240ad93af7967d2c69c25bc39d917abb77c8b32d02725d73ff9",
+    "82772a61ec74974e84c686c61ea0b7d5.png": "49ec1b2b9a43a9bc5dab5536530489f39de9c263d8fd6d35d4f7e674410b378f",
+    "83a9787d4cb6f3b7632b4ddfebf74367.wav": "fb8c18242813d8763cccf5f6077daf44b672d0088f5d3688cca29d621b4959cc",
+    "862488bf66b67c5330cae9235b853b6e.svg": "157709cec4c214e61c5e6c74fffae273fd1803e5f55d6dadc0d5ac5e0e35b5d3",
+    "89691587a169d935a58c48c3d4e78534.wav": "c4a3a37503fb8118a113f24afc7b0ce2de4d562f49cf65370c8456a72c2ab618",
+    "968e4bf0d3f8f68fe24bacc6f8fa8413.svg": "7c5dc880841b6a09cb252f880ace365cc9507cda11de05b743be67944cabd2be",
+    "afa34381db44e699d61f774911aab448.svg": "eeca4930b9d61df1e6e5d669b12bf9999c7424d2ffe1fe7387aa29cfa94ff489",
+    "b8355c0766d500b568ca20cbf8cbbf84.svg": "8faa2094686f811dbd3d270ba7432f4ecaa9c3fea284264a884178a25105f97e",
+    "cd21514d0531fdffb22204e0ec5ed84a.svg": "c3b723d028900d9768878653c3a65c377871fe3ecfce5c7b66ef795505e85e1a",
+    "de0e54cd11551566f044e7e6bc588b2c.png": "1761be1cded1c9757381b45dfcaa6be95cda8f1836b82fa5467e114a50e3c58b",
+    "dfe9c5d40da0dcc386fad524c36d3579.svg": "7183c067816acc9c73d07b23167522ca401f704efa63d397bf0665e02cbeb433",
+    "f62e3bfccab9c23eee781473c94a009c.wav": "5192b1a434d435c62e24a3cf0d2e9ecc15393a85c2fab4657e40e4960d627403",
+    "fb238e3eaee7901e58f140a544f1b863.svg": "a3ada605b37eee5f3a8eb6ba37f9542d598cafbd2f5dcb4432d85200bb4319bd"
+  }
+}
